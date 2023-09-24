@@ -85,7 +85,7 @@ int main() {
   // Both lines error out with the "must be an lvalue" message. 
   // (Good, I was worried that would be weird.)
 
-  // And finally let's try some ref comparisons, if that's a thing
+  // And finally let's try a ref comparison
   if (&test == &testRef) {
     cout << "test and test2 have the same location\n";
   }
